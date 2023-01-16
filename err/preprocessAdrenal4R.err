@@ -1,0 +1,9 @@
+Creating h5Seurat file for version 3.1.5.9900
+Adding counts for RNA
+Adding data for RNA
+No variable features found for RNA
+No feature-level metadata found for RNA
+Validating h5Seurat file
+Adding data from RNA as X
+Adding counts from RNA as raw
+Transfering meta.data to obs

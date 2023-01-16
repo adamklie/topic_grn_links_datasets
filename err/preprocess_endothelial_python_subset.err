@@ -1,0 +1,7 @@
+/cellar/users/aklie/opt/miniconda3/envs/scverse-py38/lib/python3.8/site-packages/anndata/_core/anndata.py:1235: ImplicitModificationWarning: Trying to modify attribute `.obs` of view, initializing view as actual.
+  df[key] = c
+/cellar/users/aklie/opt/miniconda3/envs/scverse-py38/lib/python3.8/site-packages/anndata/_core/anndata.py:1235: ImplicitModificationWarning: Trying to modify attribute `.obs` of view, initializing view as actual.
+  df[key] = c
+/cellar/users/aklie/opt/miniconda3/envs/scverse-py38/lib/python3.8/site-packages/anndata/_core/anndata.py:1235: ImplicitModificationWarning: Trying to modify attribute `.obs` of view, initializing view as actual.
+  df[key] = c
+filtered out 5358 genes that are detected in less than 3 cells

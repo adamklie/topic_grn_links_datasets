@@ -1,0 +1,15 @@
+Fri Jan 13 10:00:05 PST 2023
+Job ID: 214739
+
+Preprocessing ENCODE4 data object: /cellar/users/aklie/data/igvf/topic_grn_links/mouse_heart/preprocess/snrna/filtered.h5ad
+Saving preprocessed data in /cellar/users/aklie/data/igvf/topic_grn_links/mouse_heart/preprocess/snrna
+
+Running:
+ python create_encode4_loom.py     /cellar/users/aklie/data/igvf/topic_grn_links/mouse_heart/preprocess/snrna/filtered.h5ad     /cellar/users/aklie/data/igvf/topic_grn_links/mouse_heart/preprocess/snrna
+
+Reading...
+Prelim filters...
+Calculate metrics...
+Saving as loom...
+
+Fri Jan 13 10:05:48 PST 2023

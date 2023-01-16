@@ -1,0 +1,6 @@
+filtered out 130 cells that have less than 200 genes expressed
+/cellar/users/aklie/opt/miniconda3/envs/scverse-py38/lib/python3.8/site-packages/scanpy/preprocessing/_simple.py:140: ImplicitModificationWarning: Trying to modify attribute `.obs` of view, initializing view as actual.
+  adata.obs['n_genes'] = number
+/cellar/users/aklie/opt/miniconda3/envs/scverse-py38/lib/python3.8/contextlib.py:120: FutureWarning: X.dtype being converted to np.float32 from float64. In the next version of anndata (0.9) conversion will not be automatic. Pass dtype explicitly to avoid this warning. Pass `AnnData(X, dtype=X.dtype, ...)` to get the future behavour.
+  next(self.gen)
+filtered out 6088 genes that are detected in less than 3 cells

@@ -1,0 +1,11 @@
+Fri Jan 13 09:06:38 PST 2023
+Job ID: 214727
+
+Preprocessing ENCODE4 data object: /cellar/users/aklie/data/igvf/topic_grn_links/mouse_adrenal/preprocess/snrna/subset/filtered.h5ad
+Saving preprocessed data in /cellar/users/aklie/data/igvf/topic_grn_links/mouse_adrenal/preprocess/snrna/subset
+
+Running:
+ python create_encode4_loom.py     /cellar/users/aklie/data/igvf/topic_grn_links/mouse_adrenal/preprocess/snrna/subset/filtered.h5ad     /cellar/users/aklie/data/igvf/topic_grn_links/mouse_adrenal/preprocess/snrna/subset
+
+
+Fri Jan 13 09:07:39 PST 2023

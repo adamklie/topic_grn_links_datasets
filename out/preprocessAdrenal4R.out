@@ -1,0 +1,15 @@
+Fri Jan 13 09:34:59 PST 2023
+Job ID: 214732
+
+Preprocessing ENCODE4 data object: /cellar/users/aklie/data/igvf/topic_grn_links/mouse_adrenal/auxiliary_data/snrna/adrenal_Parse_10x_integrated.rds
+Saving preprocessed data in /cellar/users/aklie/data/igvf/topic_grn_links/mouse_adrenal/preprocess/snrna
+
+Running:
+ Rscript --vanilla createEncode4H5AD.R     /cellar/users/aklie/data/igvf/topic_grn_links/mouse_adrenal/auxiliary_data/snrna/adrenal_Parse_10x_integrated.rds     /cellar/users/aklie/data/igvf/topic_grn_links/mouse_adrenal/preprocess/snrna
+
+[1] "Reading..."
+[1] "Putting the object on a diet..."
+[1] "Saving h5seurat..."
+[1] "Saving h5ad..."
+[1] "Saving ARACNe tsv..."
+

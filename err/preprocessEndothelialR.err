@@ -1,0 +1,81 @@
+Warning message:
+In CreateSeuratObject.default(counts = t_dat, project = "endothelial_perturb_seq",  :
+  Some cells in meta.data not present in provided counts matrix
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating gene variances
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating feature variances of standardized and clipped values
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Centering and scaling data matrix
+  |                                                                              |                                                                      |   0%  |                                                                              |==                                                                    |   4%  |                                                                              |=====                                                                 |   7%  |                                                                              |========                                                              |  11%  |                                                                              |==========                                                            |  14%  |                                                                              |============                                                          |  18%  |                                                                              |===============                                                       |  21%  |                                                                              |==================                                                    |  25%  |                                                                              |====================                                                  |  29%  |                                                                              |======================                                                |  32%  |                                                                              |=========================                                             |  36%  |                                                                              |============================                                          |  39%  |                                                                              |==============================                                        |  43%  |                                                                              |================================                                      |  46%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================                                |  54%  |                                                                              |========================================                              |  57%  |                                                                              |==========================================                            |  61%  |                                                                              |=============================================                         |  64%  |                                                                              |================================================                      |  68%  |                                                                              |==================================================                    |  71%  |                                                                              |====================================================                  |  75%  |                                                                              |=======================================================               |  79%  |                                                                              |==========================================================            |  82%  |                                                                              |============================================================          |  86%  |                                                                              |==============================================================        |  89%  |                                                                              |=================================================================     |  93%  |                                                                              |====================================================================  |  96%  |                                                                              |======================================================================| 100%
+PC_ 1 
+Positive:  FTL:ENSG00000087086, NEAT1:ENSG00000245532, MALAT1:ENSG00000251562, TGM2:ENSG00000198959, S100A6:ENSG00000197956, THBS1:ENSG00000137801, TMSB4X:ENSG00000205542, RPS4X:ENSG00000198034, FTH1:ENSG00000167996, FKBP1A:ENSG00000088832 
+	   ITGA10:ENSG00000143127, ITM2B:ENSG00000136156, PRSS23:ENSG00000150687, IFI27:ENSG00000165949, RPS2:ENSG00000140988, IL32:ENSG00000008517, PLK2:ENSG00000145632, HSPG2:ENSG00000142798, VIM:ENSG00000026025, MDK:ENSG00000110492 
+	   SELENOM:ENSG00000198832, CLU:ENSG00000120885, KCTD12:ENSG00000178695, IGFBP7:ENSG00000163453, TPT1:ENSG00000133112, EDN1:ENSG00000078401, PLSCR4:ENSG00000114698, CALCRL:ENSG00000064989, CCND1:ENSG00000110092, MGP:ENSG00000111341 
+Negative:  MKI67:ENSG00000148773, TOP2A:ENSG00000131747, ASPM:ENSG00000066279, CENPF:ENSG00000117724, TPX2:ENSG00000088325, PRC1:ENSG00000198901, UBE2C:ENSG00000175063, NUSAP1:ENSG00000137804, PBK:ENSG00000168078, DLGAP5:ENSG00000126787 
+	   CEP55:ENSG00000138180, GTSE1:ENSG00000075218, ANLN:ENSG00000011426, CCNB1:ENSG00000134057, CDK1:ENSG00000170312, CCNA2:ENSG00000145386, HMGB2:ENSG00000164104, HMMR:ENSG00000072571, AURKA:ENSG00000087586, KNL1:ENSG00000137812 
+	   KIF20B:ENSG00000138182, CDC20:ENSG00000117399, CENPE:ENSG00000138778, CDCA2:ENSG00000184661, KIF2C:ENSG00000142945, CDCA8:ENSG00000134690, DEPDC1:ENSG00000024526, BIRC5:ENSG00000089685, KIF11:ENSG00000138160, CENPA:ENSG00000115163 
+PC_ 2 
+Positive:  S100A6:ENSG00000197956, MT2A:ENSG00000125148, S100A11:ENSG00000163191, RPS4X:ENSG00000198034, RPS2:ENSG00000140988, S100A10:ENSG00000197747, GSTP1:ENSG00000084207, EIF4EBP1:ENSG00000187840, TXN:ENSG00000136810, RPL22L1:ENSG00000163584 
+	   HMGB1:ENSG00000189403, SNHG29:ENSG00000175061, FTH1:ENSG00000167996, FTL:ENSG00000087086, MGST1:ENSG00000008394, H2AFZ:ENSG00000164032, PHLDA2:ENSG00000181649, MYL12A:ENSG00000101608, RPL7:ENSG00000147604, KRT18:ENSG00000111057 
+	   RAN:ENSG00000132341, PTTG1:ENSG00000164611, JPT1:ENSG00000189159, AL355312.4:ENSG00000273132, HMGN2:ENSG00000198830, MT1X:ENSG00000187193, EIF1:ENSG00000173812, MYL12B:ENSG00000118680, LRRC75A:ENSG00000181350, PHGDH:ENSG00000092621 
+Negative:  MT-CO3:ENSG00000198938, NEAT1:ENSG00000245532, MT-CO1:ENSG00000198804, MALAT1:ENSG00000251562, FN1:ENSG00000115414, MT-ND1:ENSG00000198888, SPARC:ENSG00000113140, PALM2-AKAP2:ENSG00000157654, HSPG2:ENSG00000142798, MT-ND5:ENSG00000198786 
+	   MT-ND4:ENSG00000198886, MT-CYB:ENSG00000198727, MACF1:ENSG00000127603, DST:ENSG00000151914, APP:ENSG00000142192, LAMC1:ENSG00000135862, MT-ND2:ENSG00000198763, SPTBN1:ENSG00000115306, APLP2:ENSG00000084234, FSTL1:ENSG00000163430 
+	   CD93:ENSG00000125810, XIST:ENSG00000229807, COL4A1:ENSG00000187498, LAMB1:ENSG00000091136, UTRN:ENSG00000152818, MYH9:ENSG00000100345, HSP90B1:ENSG00000166598, ITGA5:ENSG00000161638, MT-ATP6:ENSG00000198899, CALU:ENSG00000128595 
+PC_ 3 
+Positive:  IGFBP4:ENSG00000141753, SOX4:ENSG00000124766, ADGRF5:ENSG00000069122, IL32:ENSG00000008517, CD93:ENSG00000125810, RNASE1:ENSG00000129538, MALAT1:ENSG00000251562, MMRN1:ENSG00000138722, MGP:ENSG00000111341, CALCRL:ENSG00000064989 
+	   DIPK2B:ENSG00000147113, TXNIP:ENSG00000265972, B2M:ENSG00000166710, ITM2B:ENSG00000136156, HSPG2:ENSG00000142798, PRCP:ENSG00000137509, LIMCH1:ENSG00000064042, LYVE1:ENSG00000133800, IGFBP5:ENSG00000115461, MMP2:ENSG00000087245 
+	   CLU:ENSG00000120885, MTUS1:ENSG00000129422, TOP2A:ENSG00000131747, ASPM:ENSG00000066279, MDK:ENSG00000110492, ADM:ENSG00000148926, THBS1:ENSG00000137801, NEAT1:ENSG00000245532, UBE2C:ENSG00000175063, FCGRT:ENSG00000104870 
+Negative:  MT2A:ENSG00000125148, CCN2:ENSG00000118523, PTX3:ENSG00000163661, KRT19:ENSG00000171345, BASP1:ENSG00000176788, ANXA2:ENSG00000182718, CCN1:ENSG00000142871, ACTB:ENSG00000075624, TXNRD1:ENSG00000198431, HMGCS1:ENSG00000112972 
+	   CCBE1:ENSG00000183287, NCL:ENSG00000115053, MSMO1:ENSG00000052802, SQLE:ENSG00000104549, ANKRD1:ENSG00000148677, TXNRD2:ENSG00000184470, CYP51A1:ENSG00000001630, HSP90AB1:ENSG00000096384, ECI2:ENSG00000198721, EIF4EBP1:ENSG00000187840 
+	   ESM1:ENSG00000164283, SERPINE1:ENSG00000106366, INO80C:ENSG00000153391, PLOD2:ENSG00000152952, THBD:ENSG00000178726, PSAT1:ENSG00000135069, NPM1:ENSG00000181163, FDFT1:ENSG00000079459, HSPA5:ENSG00000044574, RTN4:ENSG00000115310 
+PC_ 4 
+Positive:  NCL:ENSG00000115053, ZNF10:ENSG00000256223, NPM1:ENSG00000181163, MT-ND6:ENSG00000198695, PCSK5:ENSG00000099139, HNRNPU:ENSG00000153187, HSPD1:ENSG00000144381, HNRNPA2B1:ENSG00000122566, HSP90B1:ENSG00000166598, MT-ND5:ENSG00000198786 
+	   DST:ENSG00000151914, TKT:ENSG00000163931, RPL7:ENSG00000147604, MTRNR2L12:ENSG00000269028, YBX1:ENSG00000065978, HSPA5:ENSG00000044574, TPM4:ENSG00000167460, MAP4K4:ENSG00000071054, HSP90AB1:ENSG00000096384, CUL4B:ENSG00000158290 
+	   LDLRAD2:ENSG00000187942, ANKRD11:ENSG00000167522, RPS2:ENSG00000140988, MT-ATP8:ENSG00000228253, HNRNPA3:ENSG00000170144, NRP1:ENSG00000099250, PCM1:ENSG00000078674, PECAM1:ENSG00000261371, GOLGA4:ENSG00000144674, YES1:ENSG00000176105 
+Negative:  S100A6:ENSG00000197956, IFI27:ENSG00000165949, SRGN:ENSG00000122862, FKBP1A:ENSG00000088832, MYL6:ENSG00000092841, TMSB4X:ENSG00000205542, CD59:ENSG00000085063, S100A11:ENSG00000163191, TIMP1:ENSG00000102265, CAV1:ENSG00000105974 
+	   CRIP1:ENSG00000213145, IGFBP7:ENSG00000163453, CCN2:ENSG00000118523, S100A10:ENSG00000197747, PRSS23:ENSG00000150687, CD9:ENSG00000010278, CD63:ENSG00000135404, APLN:ENSG00000171388, ICAM2:ENSG00000108622, ACTB:ENSG00000075624 
+	   CTSZ:ENSG00000101160, TUBA1A:ENSG00000167552, MYL12B:ENSG00000118680, MYL12A:ENSG00000101608, PLAT:ENSG00000104368, LAPTM4A:ENSG00000068697, DAD1:ENSG00000129562, B2M:ENSG00000166710, GSTP1:ENSG00000084207, LINC01013:ENSG00000228495 
+PC_ 5 
+Positive:  CLSPN:ENSG00000092853, HIST1H1B:ENSG00000184357, ATAD2:ENSG00000156802, MCM10:ENSG00000065328, MCM4:ENSG00000104738, HELLS:ENSG00000119969, CCNE2:ENSG00000175305, HIST1H1D:ENSG00000124575, CDC6:ENSG00000094804, DTL:ENSG00000143476 
+	   HIST1H4C:ENSG00000197061, ESCO2:ENSG00000171320, BRCA1:ENSG00000012048, HIST1H1C:ENSG00000187837, RRM2:ENSG00000171848, ORC6:ENSG00000091651, CENPU:ENSG00000151725, FAM111B:ENSG00000189057, PSMC3IP:ENSG00000131470, E2F1:ENSG00000101412 
+	   FEN1:ENSG00000168496, BRCA2:ENSG00000139618, MCM7:ENSG00000166508, HIST1H2AH:ENSG00000274997, RFC3:ENSG00000133119, GINS2:ENSG00000131153, WDR76:ENSG00000092470, CHAF1A:ENSG00000167670, HIST1H1E:ENSG00000168298, GINS1:ENSG00000101003 
+Negative:  PTTG1:ENSG00000164611, DLGAP5:ENSG00000126787, CDKN3:ENSG00000100526, CCNB1:ENSG00000134057, CDC20:ENSG00000117399, KIF20A:ENSG00000112984, CCNB2:ENSG00000157456, VIM:ENSG00000026025, BIRC5:ENSG00000089685, ARL6IP1:ENSG00000170540 
+	   TROAP:ENSG00000135451, CLIC1:ENSG00000213719, HMGB1:ENSG00000189403, EGFL7:ENSG00000172889, PIMREG:ENSG00000129195, PRR11:ENSG00000068489, UBE2S:ENSG00000108106, HMGB3:ENSG00000029993, BUB1:ENSG00000169679, S100A10:ENSG00000197747 
+	   KRT19:ENSG00000171345, CAVIN3:ENSG00000170955, H3F3B:ENSG00000132475, LDHA:ENSG00000134333, NUCKS1:ENSG00000069275, JPT1:ENSG00000189159, MARCKS:ENSG00000277443, ITGA6:ENSG00000091409, SH3BP5:ENSG00000131370, CCNA1:ENSG00000133101 
+Computing nearest neighbor graph
+Computing SNN
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Warning: The default method for RunUMAP has changed from calling Python UMAP via reticulate to the R-native UWOT using the cosine metric
+To use Python UMAP via reticulate, set umap.method to 'umap-learn' and metric to 'correlation'
+This message will be shown once per session
+13:41:41 UMAP embedding parameters a = 0.9922 b = 1.112
+13:41:42 Read 213908 rows and found 10 numeric columns
+13:41:42 Using Annoy for neighbor search, n_neighbors = 30
+13:41:42 Building Annoy index with metric = cosine, n_trees = 50
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+13:42:27 Writing NN index file to temp file /tmp/Rtmpt5PXBX/file1dcc7076650e84
+13:42:27 Searching Annoy index using 1 thread, search_k = 3000
+13:51:35 Annoy recall = 100%
+13:51:40 Commencing smooth kNN distance calibration using 1 thread
+13:52:05 Initializing from normalized Laplacian + noise
+13:52:27 Commencing optimization for 200 epochs, with 8534786 positive edges
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+13:55:46 Optimization finished
+Error in asMethod(object) : 
+  Cholmod error 'problem too large' at file ../Core/cholmod_dense.c, line 102
+Calls: ARACNeTable ... as.data.frame -> as.matrix -> as.matrix -> as -> asMethod
+Execution halted

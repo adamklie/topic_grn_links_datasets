@@ -1,0 +1,29 @@
+Fri Jan 13 11:47:46 PST 2023
+Job ID: 214740
+
+Preprocessing endothelial cell data in /cellar/users/aklie/data/igvf/topic_grn_links/endothelial_perturb_seq
+Saving preprocessed data in /cellar/users/aklie/data/igvf/topic_grn_links/endothelial_perturb_seq/preprocess
+
+Running:
+ Rscript --vanilla createEndothelialRDS.R     /cellar/users/aklie/data/igvf/topic_grn_links/endothelial_perturb_seq     /cellar/users/aklie/data/igvf/topic_grn_links/endothelial_perturb_seq/preprocess
+
+[1] "Reading..."
+[1] "Transposing matrix..."
+[1] "Creating Seurat object..."
+[1] "Saving Seurat object..."
+[1] "Filtering cells..."
+[1] "Saving filteried object..."
+[1] "Preprocessing object..."
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 213908
+Number of edges: 4955191
+
+Running Louvain algorithm...
+Maximum modularity in 10 random starts: 0.8429
+Number of communities: 11
+Elapsed time: 337 seconds
+[1] "Saving preprocessed object..."
+[1] "Saving normalized tsv..."
+
+Fri Jan 13 14:59:33 PST 2023

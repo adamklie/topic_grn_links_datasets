@@ -1,0 +1,11 @@
+Thu Jan 12 21:53:10 PST 2023
+Job ID: 214668
+
+Preprocessing endothelial cell data in /cellar/users/aklie/data/igvf/topic_grn_links/endothelial_perturb_seq
+Saving preprocessed data in /cellar/users/aklie/data/igvf/topic_grn_links/endothelial_perturb_seq/preprocess/subset
+
+Running:
+ python create_h5ad.py     /cellar/users/aklie/data/igvf/topic_grn_links/endothelial_perturb_seq     /cellar/users/aklie/data/igvf/topic_grn_links/endothelial_perturb_seq/preprocess/subset
+
+
+Thu Jan 12 22:36:57 PST 2023

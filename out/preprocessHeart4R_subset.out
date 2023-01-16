@@ -1,0 +1,14 @@
+Fri Jan 13 09:18:29 PST 2023
+Job ID: 214730
+
+Preprocessing ENCODE4 data object: /cellar/users/aklie/data/igvf/topic_grn_links/mouse_heart/auxiliary_data/snrna/heart_Parse_10x_integrated.rds
+Saving preprocessed data in /cellar/users/aklie/data/igvf/topic_grn_links/mouse_heart/preprocess/snrna/subset
+
+Running:
+ Rscript --vanilla createEncode4H5AD.R     /cellar/users/aklie/data/igvf/topic_grn_links/mouse_heart/auxiliary_data/snrna/heart_Parse_10x_integrated.rds     /cellar/users/aklie/data/igvf/topic_grn_links/mouse_heart/preprocess/snrna/subset
+
+[1] "Reading..."
+[1] "Putting the object on a diet..."
+[1] "Subsampling to 500 cells and saving..."
+[1] "Saving h5seurat..."
+
