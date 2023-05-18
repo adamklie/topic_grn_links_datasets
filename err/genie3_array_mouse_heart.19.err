@@ -1,0 +1,8 @@
+/cm/local/apps/slurm/var/spool/job405145/slurm_script: line 19: activate: No such file or directory
+usage: pyscenic grn [-h] [-o OUTPUT] [-t] [-m {genie3,grnboost2}]
+                    [--seed SEED] [--num_workers NUM_WORKERS]
+                    [--client_or_address CLIENT_OR_ADDRESS]
+                    [--cell_id_attribute CELL_ID_ATTRIBUTE]
+                    [--gene_attribute GENE_ATTRIBUTE] [--sparse]
+                    expression_mtx_fname tfs_fname
+pyscenic grn: error: argument tfs_fname: can't open '/cellar/users/aklie/opt/shared/SCENIC/tf_lists/allTFs_mm.txt': [Errno 2] No such file or directory: '/cellar/users/aklie/opt/shared/SCENIC/tf_lists/allTFs_mm.txt'

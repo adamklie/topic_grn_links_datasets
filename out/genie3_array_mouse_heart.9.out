@@ -1,0 +1,10 @@
+Sat May 13 14:31:39 PDT 2023
+Job ID: 405124
+
+Loading loom file: /cellar/users/aklie/projects/igvf/topic_grn_links/data/mouse_heart/prepare_inputs/snrna/0.05/loom/Lymphoid.loom
+Using tfs in: /cellar/users/aklie/opt/shared/SCENIC/tf_lists/allTFs_mm.txt
+Outputting to: /cellar/users/aklie/projects/igvf/topic_grn_links/grn_inference/genie3/results/mouse_heart/Lymphoid_adj.tsv
+Running using the genie3 algorithm
+Running:
+ pyscenic grn /cellar/users/aklie/projects/igvf/topic_grn_links/data/mouse_heart/prepare_inputs/snrna/0.05/loom/Lymphoid.loom /cellar/users/aklie/opt/shared/SCENIC/tf_lists/allTFs_mm.txt -o /cellar/users/aklie/projects/igvf/topic_grn_links/grn_inference/genie3/results/mouse_heart/Lymphoid_adj.tsv -m genie3 --num_workers 8
+Sat May 13 14:32:09 PDT 2023

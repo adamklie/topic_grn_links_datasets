@@ -1,0 +1,10 @@
+Sat May 13 14:32:39 PDT 2023
+Job ID: 405125
+
+Loading loom file: /cellar/users/aklie/projects/igvf/topic_grn_links/data/mouse_heart/prepare_inputs/snrna/0.05/loom/Macrophages.loom
+Using tfs in: /cellar/users/aklie/opt/shared/SCENIC/tf_lists/allTFs_mm.txt
+Outputting to: /cellar/users/aklie/projects/igvf/topic_grn_links/grn_inference/genie3/results/mouse_heart/Macrophages_adj.tsv
+Running using the genie3 algorithm
+Running:
+ pyscenic grn /cellar/users/aklie/projects/igvf/topic_grn_links/data/mouse_heart/prepare_inputs/snrna/0.05/loom/Macrophages.loom /cellar/users/aklie/opt/shared/SCENIC/tf_lists/allTFs_mm.txt -o /cellar/users/aklie/projects/igvf/topic_grn_links/grn_inference/genie3/results/mouse_heart/Macrophages_adj.tsv -m genie3 --num_workers 8
+Sat May 13 14:33:09 PDT 2023

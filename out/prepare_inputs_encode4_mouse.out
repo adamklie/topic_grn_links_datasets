@@ -1,0 +1,11 @@
+Fri May 12 11:15:32 PDT 2023
+Job ID: 403298
+
+Preparing inputs from ENCODE4 h5ad file: /cellar/users/aklie/projects/igvf/topic_grn_links/data/mouse_adrenal/prepare_inputs/snrna/Converted.h5ad
+Saving inputs to folders in /cellar/users/aklie/projects/igvf/topic_grn_links/data/mouse_adrenal/prepare_inputs/snrna/
+Using gene argument: 0.05
+Saving csv files
+Running:
+ python /cellar/users/aklie/projects/igvf/topic_grn_links/data/scripts/prepare_inputs_encode4_mouse.py     --in_file /cellar/users/aklie/projects/igvf/topic_grn_links/data/mouse_adrenal/prepare_inputs/snrna/Converted.h5ad     --out_dir /cellar/users/aklie/projects/igvf/topic_grn_links/data/mouse_adrenal/prepare_inputs/snrna/     --gene_arg 0.05
+    --subset_columns celltypes,
+
